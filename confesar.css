@@ -1,0 +1,41 @@
+body {
+
+background-color: black;
+color: aliceblue;
+text-align: center;
+
+}
+
+.texto {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+  }
+
+.imagen, .imagen2 {
+
+width: auto;
+height: auto;
+margin: 171px 270px 0px 0px;
+text-align: center;
+opacity: 0;
+
+}
+
+.imagen2 {
+
+    width: auto;
+    height: auto;
+    margin: 171px 0px 0px 270px;
+    text-align: center;
+    opacity: 0;
+    
+    }
+
+.imagen:hover, .imagen2:hover {
+
+cursor: pointer;
+opacity: 1;
+
+}
